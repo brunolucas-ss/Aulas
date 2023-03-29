@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="#">
+    <title>Aula Forms</title>
+</head>
+
+<body>
+    <h1>Bem vindo(a)!</h1>
+    <!-- Pré-requisitos Obrigatórios para Cadastro -->
+    <form action="#">
+        <label for="nome"><strong>Nome:</strong></label>
+            <input type="text" id="nome" 
+                        required>
+         <label for="sobrenome"><strong>Sobrenome:</strong></label>
+            <input type="text"
+                     id="sobrenome" 
+                     required><br><br>
+        <label for="email"><strong>E-mail</strong></label>
+            <input type="text" 
+                    id="email" 
+                    required size="58"
+                    placeholder="bruno.ios@gmail.com"><br><br>
+        <label for="senha"><strong>Senha:</strong></label>
+            <input type="password"
+                    required id="senha"><br><br>
+             <input type="submit"
+                    value="Login">
+        </form>
+    </body>
+</html>

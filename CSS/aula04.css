@@ -1,0 +1,8 @@
+body{
+    background-color: rgb(27, 27, 27);
+}
+div{
+    background-color: rgb(71, 180, 89);
+    color: rgb(255, 255, 255);
+    border: dashed 4px black;
+}

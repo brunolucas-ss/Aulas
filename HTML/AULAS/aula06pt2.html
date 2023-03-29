@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="#">
+    <title>Tipos de Jogos</title>
+</head>
+
+<body>
+        <h1>Suas Informações</h1>
+        <!-- LISTA DE JOGOS QUE VOCÊ TEVE MAIOR CONTATO -->
+        <p> Selecione os jogos que você teve maior contato</p>
+
+        <label for="opn1">Midnight Club 3</label>
+            <input type="checkbox" name="ljogos" id="opn1">
+        <label for="opn2">Bomba Patch</label>
+         <input type="checkbox" name="ljogos" id="opn2">
+        <label for="opn3">Guitar Hero</label>
+            <input type="checkbox" name="ljogos" id="opn3">
+        <label for="opn4">GTA-San Andreas</label>
+            <input type="checkbox" name="ljogos" id="opn4"><hr><br>
+            <!-- LISTA DE CONSOLES -->
+        <p>Qual Console Você Teve Maior Contato?</p>
+        <label for="po1">PC</label>
+         <input type="radio" name="ljogos" id="po1"><br><br>
+        <label for="po2">Nintendo </label>
+            <input type="radio" name="ljogos" id="po2"><br><br>
+        <label for="po3">Playstation</label>
+            <input type="radio" name="ljogos" id="po3"><br><br>
+        <label for="po4">Xbox</label>
+            <input type="radio" name="ljogos" id="po4"><hr><br>
+
+            <!-- LISTA DE SELEÇÃO DE JOGOS -->
+        <label for="jogos">Selecione um Jogo da Lista:</label>
+            <select name="jogos" id="jogos">
+                <option value="slc"hidden> Selecione um jogo</option>
+                <option value="GTA-V"> GTA - V</option>
+                <option value="NFS-MOST_WANTED">NFS - Most Wanted</option>
+                <option value="Clash_Of_Clans">Clash Of Clans </option>
+                <option value="E-Football">E-Football</option>
+        </select>
+        <hr><br>  
+        <label for="cidade">Selecione sua cidade</label>
+            <input autocomplete="on" list="cidade" id="cidade" name="cidade">
+                <datalist id="cidade">
+                     <option value="São Paulo"></option>
+                     <option value="Osasco"></option>
+                    <option value="Guarulhos"></option>
+                    <option value="Caieiras"></option>
+                </datalist>
+            <hr><br>
+            <h3>Qual é a sua satisfação com a pesquisa?</h3> 
+            0
+            <input type="range" id="valor_01" name="valor_01" />  10
+             <br><br> 
+             <label for="sugestao">Deixe uma sugestao AQUI:</label><br><br>
+             <textarea name="sugestao" id="sugestao" cols="30" rows="10">
+             </textarea>
+             <br><br>
+            <input type="submit">
+        <a value="Enviar">
+
+</body>
+
+</html>
