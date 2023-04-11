@@ -9,27 +9,44 @@ h1{
     background-color: blueviolet;
     border: solid 5px slategray;
     border-radius: 10px;
-    height: 350px;
-    width: 350px;
+    text-align: center;
+    height: 150px;
+    width: 50px;
     margin: 5px;
     float: left ;
 }
 #dv2 {
-    background-color: slategray;
-    border: solid 5px whitesmoke;
+    background-color: whitesmoke;
+    border: solid 5px slategray;
     border-radius: 10px;
-    height: 350px;
-    width: 350px;
+    text-align: center;
+    height: 150px;
+    width: 50px;
     margin: 5px;
     float: left;
 }
 
 #dv3 {
-    background-color: whitesmoke;
-    border: solid 5px blueviolet;
+    background-color: blueviolet;
+    border: solid 5px slategray;
     border-radius: 10px;
-    height: 350px;
-    width: 350px;
+    text-align: center; 
+    height: 150px;
+    width: 50px;
     margin: 5px;
+    float: right;
+}
+p{
+    
+    color: white;
+    margin: 5px;
+    text-align: center;
+    border: solid 5px rgb(255, 255, 255);
+    border-radius: 10px;
+    
+}
+section {
+    border: 1px solid blue;
+    width: 100%;
     float: left;
 }
