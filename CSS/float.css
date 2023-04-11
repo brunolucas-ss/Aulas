@@ -1,0 +1,35 @@
+* {
+    background-color: black;
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-family:Verdana, sans-serif
+}
+#dv1 {
+    background-color: blueviolet;
+    border: solid 5px slategray;
+    border-radius: 10px;
+    height: 350px;
+    width: 350px;
+    margin: 5px;
+    float: left ;
+}
+#dv2 {
+    background-color: slategray;
+    border: solid 5px whitesmoke;
+    border-radius: 10px;
+    height: 350px;
+    width: 350px;
+    margin: 5px;
+    float: left;
+}
+
+#dv3 {
+    background-color: whitesmoke;
+    border: solid 5px blueviolet;
+    border-radius: 10px;
+    height: 350px;
+    width: 350px;
+    margin: 5px;
+    float: left;
+}
