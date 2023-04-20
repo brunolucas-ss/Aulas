@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+
+.div1 {
+    text-align: center;
+    background-color: gray;
+
+
+}
+img {
+    width: 200px;
+    height: 200px;
+    border: 5px black;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+.mov:hover {
+    animation: aula 1s;
+}
+@keyframes aula {
+0%{
+    transform: translate(0px);
+}
+40%{
+    transform: translate(30px);
+}
+70%{
+    transform: translate(-30px);
+}
+100%{
+    transform: translate(90px);
+}
+
+}
