@@ -12,7 +12,7 @@ header {
 }
 h1 {
     background-color: rgb(0, 0, 0);
-    color: rgb(252, 0, 0);
+    color: rgb(219, 0, 0);
     text-align: center;
     text-decoration: none;
     font-family: Arial, sans-serif;
@@ -26,10 +26,11 @@ h2 {  background-image: url('../background.jpg');
 
 
 #div1 {
-    background-color: black;
-    color: rgb(255, 3, 3);
+    background-color:transparent;
+    color: rgb(255, 0, 0);
     text-align: center;
     text-decoration: none;
+    padding: 5px;
     font-family: Arial, Helvetica, sans-serif;
 }
 #div2 {
