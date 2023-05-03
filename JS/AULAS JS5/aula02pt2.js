@@ -1,4 +1,4 @@
-var media = (7 + 2) / 2; 
+var media = (9 + 8) / 2; 
 console.log (media);    
 // > | >=
 // < | <=
