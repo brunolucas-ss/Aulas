@@ -2,7 +2,7 @@ var media = (9 + 8) / 2;
 console.log (media);    
 // > | >=
 // < | <=
-// == | ===
+// ==  valores iguais | === tipos iguais
 
 
 console.log (3 =="8")                                    
