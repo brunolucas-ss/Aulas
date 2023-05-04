@@ -1,0 +1,23 @@
+#div1 {
+    
+    border: solid 15px rgb(0, 0, 0);
+    height: 300px; 
+    width: 300px;
+    box-sizing: border-box;
+    margin: 30px;
+}
+#div2 {
+    border: solid 15px rgb(243, 0, 0);
+    height: 300px; 
+    width: 300px;
+    margin: 30px; 
+}
+
+#div3 {
+    
+    border: solid 5px slategray;
+}
+#div4 {
+    border: solid 5px slategray;
+   
+}

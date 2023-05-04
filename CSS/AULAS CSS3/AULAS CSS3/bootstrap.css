@@ -1,0 +1,28 @@
+body {
+    background-color:black;
+    color:aliceblue;
+    text-align: center;
+}
+a {
+    background-color: blueviolet;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+    border:0.2rem solid black;
+    border-radius: 10px;
+    width: 250px;
+    height: 275px;
+}
+a :hover { 
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 10;
+    border: 0.2rem dashed black;
+    text-align: center;
+    border-bottom: 0.2rem solid white;
+    transition: 1s;
+    width: 275px;
+    height: 300px;
+    transition: 0.5s;
+}

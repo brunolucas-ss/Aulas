@@ -1,0 +1,43 @@
+* { 
+    background-color: black;
+}
+h2{
+    color: white;
+}
+
+#div1 { 
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+    height: 300px;
+    width: 300px;
+    display:inline-block;
+    text-align: center;
+}
+#div2 { 
+    background-color: rgb(251, 255, 0);
+    color: rgb(0, 0, 0);
+    height: 300px;
+    width: 300px;
+    display:inline-block;
+    text-align: center;
+} 
+
+#div3 { 
+    background-color: rgb(0, 157, 255);
+    color: rgb(35, 35, 35);
+    height: 300px;
+    width: 300px;
+    display:inline-block;
+    text-align: center;
+}
+#div4 { 
+    background-color: rgb(9, 244, 126);
+    color: rgb(0, 0, 0);
+    height: 300px;
+    width: 300px;
+    display:inline-block;
+    text-align: center;
+}
+p{
+    color: aliceblue;
+}

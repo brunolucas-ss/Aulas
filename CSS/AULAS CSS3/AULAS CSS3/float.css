@@ -1,0 +1,52 @@
+* {
+    background-color: black;
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-family:Verdana, sans-serif
+}
+#dv1 {
+    background-color: blueviolet;
+    border: solid 5px slategray;
+    border-radius: 10px;
+    text-align: center;
+    height: 150px;
+    width: 50px;
+    margin: 5px;
+    float: left ;
+}
+#dv2 {
+    background-color: whitesmoke;
+    border: solid 5px slategray;
+    border-radius: 10px;
+    text-align: center;
+    height: 150px;
+    width: 50px;
+    margin: 5px;
+    float: left;
+}
+
+#dv3 {
+    background-color: blueviolet;
+    border: solid 5px slategray;
+    border-radius: 10px;
+    text-align: center; 
+    height: 150px;
+    width: 50px;
+    margin: 5px;
+    float: right;
+}
+p{
+    
+    color: white;
+    margin: 5px;
+    text-align: center;
+    border: solid 5px rgb(255, 255, 255);
+    border-radius: 10px;
+    
+}
+section {
+    border: 1px solid blue;
+    width: 100%;
+    float: left;
+}
