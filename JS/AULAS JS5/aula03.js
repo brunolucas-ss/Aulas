@@ -1,4 +1,3 @@
-var media = 8;
-console.log(media);
-media+= 1; 
+ var media= 5;
+ media*= 9;
 console.log(media)
