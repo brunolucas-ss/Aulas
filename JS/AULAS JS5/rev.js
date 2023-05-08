@@ -5,6 +5,8 @@
 // let num2 = Number(prompt(`Digite outro número:`))
 // let soma = num1 + num2
 // alert (`a soma de ${num1} + ${num2} é igual a ${soma}`)
+
+
 //  const str1 = 'A raposa é um animal esperto'
 //  const palavras = str1.split(' ');
 // console.log(palavras[3]);
@@ -12,9 +14,14 @@
 
 // trim()-Correção de espaços
 //search
-var ola = "Olá, alunos!"
-console.log(ola)
-var ola = "Olá, alunos!".replace("Alunos!","Bia!");
-console.log(ola)
-var ola = "Olá, alunos!".replace("Alunos!","Bia!");
-console.log(ola.replace("Alunos!", "Bia"));
+
+
+// var ola = "Olá, alunos!"
+// console.log(ola)
+// var ola = "Olá, alunos!".replace("alunos!","Bia!");
+// console.log(ola)
+// var ola = "Olá, alunos!".replace("alunos!","Bia!");
+// console.log(ola.replace("alunos!", "Bia"));
+
+let frase = 'Olá jovem aluno'
+console.log(frase.search("jovem "));
