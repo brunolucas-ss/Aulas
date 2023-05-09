@@ -35,9 +35,21 @@ switch (pontosAluno) {
 }
 console.log("Fim do programa")
 
-let idade = 14;
-while (idade < 18) {
-    console.log(`Não pode beber ${idade}`);
+let idade = 1;
+while (idade < 11) {
+    console.log(` ${idade}`);
     idade +=1;
+    
 }
 console.log("Fim do programa")
+
+console.clear();
+let idade2 = 10;
+while (idade2 > 0) {
+    console.log(`Valor = ${idade2}`)
+    idade --    ;
+   break
+    
+}
+
+console.log("Fim do programa");
