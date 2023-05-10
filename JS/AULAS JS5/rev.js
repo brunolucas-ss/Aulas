@@ -23,5 +23,5 @@
 // var ola = "Olá, alunos!".replace("alunos!","Bia!");
 // console.log(ola.replace("alunos!", "Bia"));
 
-let frase = 'Olá jovem aluno'
-console.log(frase.search("jovem "));
+let nome = ["Bruno" ,"Lucas" ,"Sapo" ,5 ,9 ,true ,,false ]
+console.log(nome);
