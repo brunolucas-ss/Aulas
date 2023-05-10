@@ -1,13 +1,11 @@
-let num1 = Number(prompt (' "Digite um número:" '));
-if ( num1 <0 ) {
-    console.log("é um numero negativo")
+let num1 = prompt('digite um número')
+if(num1 >0){
+    window.alert('é um número positivo')
 }
-else if (num1 = 0 ){
-    alert ("é zero")
-    
+else if(num1 <0){
+    window.alert('é um número negativo')
 }
-else if (num1 >= 1 ){
-    alert ("é um numero positivo")
-    
+else if(num1 =0){
+    window.alert('o número é 0')
 }
-alert (`O ${num1} é um numero inteiro`);
+
