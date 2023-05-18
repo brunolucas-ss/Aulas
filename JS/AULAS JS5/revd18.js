@@ -23,4 +23,8 @@ console.log("-------------------------------------------");
 // let cores=["vermelho","azul","verde", "amarelo"]
 // cores.forEach((item,num,Array) => ${nomes}
 // )
+let email = ["b.lucas.ssilva@gmail.com","pig@gmail.com","leobigode@gmail.com"]
+email.forEach((alunos) =>{
+ console.log(`Email enviado para:${alunos}`) 
+});
 
