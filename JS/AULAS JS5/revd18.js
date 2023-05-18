@@ -1,8 +1,11 @@
 // for (let i = 0; i <= 10; i++) {
 //     console.log(`Contador:${i}`)
 // }
+
+
 // console.log("---------------------");
-let salaAula = ["Vitor", "Samuel", "Bruno","Hilary","Day"];
+
+
 // console.log(salaAula[0]);
 // console.log(salaAula[1]);
 // console.log(salaAula[2]);
@@ -11,6 +14,7 @@ let salaAula = ["Vitor", "Samuel", "Bruno","Hilary","Day"];
 // console.log("---------------------");
 
 
+let salaAula = ["Vitor", "Samuel", "Bruno","Hilary","Day"];
 
 const nomes =(nome, ind) => {
     return console.log(`Olá aluno: ${nome} está na chamada num:${ind}`)
@@ -18,13 +22,13 @@ const nomes =(nome, ind) => {
 salaAula.forEach((nome,ind) =>{
     console.log(`Os Alunos aprovados são:${nome} está na chamada num:${ind} `)
 });
-console.log("-------------------------------------------"); 
 
-// let cores=["vermelho","azul","verde", "amarelo"]
-// cores.forEach((item,num,Array) => ${nomes}
-// )
-let email = ["b.lucas.ssilva@gmail.com","pig@gmail.com","leobigode@gmail.com"]
-email.forEach((alunos) =>{
- console.log(`Email enviado para:${alunos}`) 
-});
+// console.log("-------------------------------------------"); 
 
+// // let cores=["vermelho","azul","verde", "amarelo"]
+// // cores.forEach((item,num,Array) => ${nomes}
+// // )
+// let email = ["b.lucas.ssilva@gmail.com","pig@gmail.com","leobigode@gmail.com"]
+// email.forEach((alunos) =>{
+//  console.log(`Email enviado para:${alunos}`) 
+// });
