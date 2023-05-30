@@ -1,10 +1,12 @@
-let elemento1 = document.querySelector("p");
-elemento1.style.color = "blue";
+let p1 = document.querySelector("#p1");
 
-
-// elemento por classe ".par1"
-let elemento2 = document.querySelector(".par1");
-elemento1.style.color = "red";
-// Elemento por ID.
-let elemento3 = document.querySelector("#par3");
-elemento1.style.color = "blueviolet";
+const mudarC = () => {
+    p1.style.color = "green"
+}
+const mudarT = () => {
+    p1.innerHTML = "Olá, Usuario"
+}
+const MudarV =  () => {
+    p1.style.color = "black";
+    p1.innerHTML = "Lorem,ipsum dolor";
+}
